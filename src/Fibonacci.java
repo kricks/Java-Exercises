@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
-class Fibonacci {
+/**
+ * Simple Fibonacci Series program
+ * coded using recursion and iteration
+ *
+ * @author  Katie R-P
+ */
+
+public class Fibonacci {
     public static void main(String[] args) {
 
         System.out.print("Enter a given number of Fibonacci series to print: ");
@@ -10,7 +17,7 @@ class Fibonacci {
         System.out.println("The Fibonacci Series: ");
 
         for (int i = 1; i <= number; i++) {
-            System.out.println(fib(i) + " ");
+            System.out.print(fib(i) + " ");
         }
     }
 
