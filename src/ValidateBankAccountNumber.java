@@ -57,11 +57,11 @@ public class ValidateBankAccountNumber {
         }
 
         public String sanitized(String routeNum, String accountNum) {
-            String lastThreeDigits = accountNum;
-            String sanAccNum = lastThreeDigits.substring(lastThreeDigits.length() - 3);
+            String lastThreeDig = accountNum;
+            String sanAccNum = lastThreeDig.substring(lastThreeDig.length() - 3);
 
             System.out.println("Sanitized String: " + routeNum + "..." + sanAccNum);
-            return lastThreeDigits;
+            return lastThreeDig;
         }
     }
 
