@@ -53,6 +53,8 @@ public class ValidateCreditCardNumber {
                 cardType = "Visa";
             } else if (cardNum.startsWith("5")){
                 cardType = "MasterCard";
+            } else if (cardNum.startsWith("34")) {
+                cardType = "American Express";
             } else if (cardNum.startsWith("37")) {
                 cardType = "American Express";
             } else {
